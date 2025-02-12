@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './scss/services.scss'
 import './scss/app.scss'
-
+import './scss/about.scss'
+import './scss/pluses.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

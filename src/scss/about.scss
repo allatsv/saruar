@@ -1,0 +1,100 @@
+.about {
+    .title {
+        text-align: left;
+        padding-bottom: 20px;
+        max-width: 350px;
+    }
+    .subtitle {
+        text-align: left;
+        color: #CC1C19;
+    }
+    &__top {
+        display: flex;
+        column-gap: 60px;
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        max-width: 553px;
+    }
+    &__list {
+        font-size: 16px;
+        line-height: 25.6px;
+        color: #666666;
+        padding-bottom: 30px;
+        &-title {
+            font-weight: 700;
+        }
+    }
+    &__descrip {
+        font-size: 16px;
+        line-height: 25.6px;
+        color: #666666;
+        padding-bottom: 30px;
+    }
+    &__descrip:last-child {
+        padding-bottom: 0;
+    }
+    &__years {
+        padding: 30px 35px 30px 30px;
+        background-color: rgba(85, 98, 117, 0.1);
+        width: 144px;
+        height: 164px;
+        margin-left: 90px;
+        &-title {
+            font-size: 44px;
+            line-height: 55.44px;
+            font-weight: 800;
+            color: #CC1C19;
+        }
+        &-text {
+            font-size: 16px;
+            line-height: 25.6px;
+            color: #002933;
+        }
+    }
+    &__mission {
+        padding: 30.84px 19px 30px 30px;
+        background-color: #CC1C19;
+        color: #fff;
+        width: 281px;
+        height: 294px;
+        position: relative;
+        &-title {
+            padding: 20.36px 0 5px 0;
+            font-size: 22px;
+            line-height: 26.4px;
+            font-weight: 600;
+        }
+        &-text {
+            font-size: 18px;
+            line-height: 23.4px;
+            font-weight: 500;
+            max-width: 220px;
+        }
+        &-icon {
+            width: 64.8px;
+            height: 64.8px;
+        }
+        &-triangle {
+            border-bottom: 279px solid #002933;
+            border-left: 293px solid transparent;
+            position: absolute;
+            bottom: -13px;
+            right: -13px;
+            z-index: -1;
+        }
+    }
+    &__img {
+        display: flex;
+        width: 581px;
+        height: 579px;
+        margin-top: 43px;
+        &-img {
+            margin-bottom: 55px;
+            z-index: -2;
+        }
+    }
+}

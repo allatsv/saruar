@@ -1,0 +1,23 @@
+.pluses {
+    background-color: rgba(85, 98, 117, 0.1);
+    padding: 100px 0 88px 0;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        width: 320px;
+        text-align: center;
+        &-title {
+            font-size: 22px;
+            line-height: 26.4px;
+            font-weight: 600;
+            padding: 50px 0 22px 0;
+        }
+        &-text {
+            font-size: 16px;
+            line-height: 25.6px;
+            color: #666666;
+        }
+    }
+}
