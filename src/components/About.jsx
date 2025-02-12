@@ -44,7 +44,7 @@ function About() {
                                 <p className="about__mission-text">Соединяем страны и бизнесы, создавая надежные логистические решения для бесперебойных поставок.</p>
                             </div>
                         </div>
-                        <img className="about__img-img" src="../../image.png" alt="photo" />
+                        <img className="about__img-img" src="../../image.png" alt="img" />
                     </div>
                     </div>
                     <div className="about__bottom">

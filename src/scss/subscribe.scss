@@ -1,0 +1,35 @@
+.subscribe {
+    background: url('../../public/subscribe-bg.png');
+    padding: 147px 0 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .main-btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .title {
+        color: #fff;
+    }
+    &__inner {
+        display: flex;
+        justify-content: center;
+        column-gap: 51px;
+    }
+    &__input {
+        width: 689px;
+        height: 61px;
+        background-color: #fff;
+        border-radius: 30.5px;
+        padding-left: 20px;
+        font-size: 16px;
+        line-height: 25.6px;
+    }
+    &__input::placeholder {
+        color: #556275;
+    }
+    &__field {
+        position: relative;
+    }
+}

@@ -7,6 +7,10 @@ import './scss/services.scss'
 import './scss/app.scss'
 import './scss/about.scss'
 import './scss/pluses.scss'
+import './scss/geography.scss'
+import './scss/reviews.scss'
+import './scss/news.scss'
+import './scss/subscribe.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

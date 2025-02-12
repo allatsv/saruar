@@ -1,0 +1,86 @@
+.reviews {
+    &__inner {
+        position: relative;
+    }
+    &__info {
+        margin: 0 auto;
+        text-align: center;
+        width: 435px;
+        padding-top: 152px;
+    }
+    &__title {
+        font-size: 30px;
+        line-height: 39px;
+        font-weight: 800;
+        color: #002933;
+        padding-bottom: 66px;
+    }
+    &__descrip {
+        font-size: 16px;
+        line-height: 25.6px;
+        color: #666666;
+        padding: 30px 0 52px 0;
+    }
+    &__name {
+        font-size: 22px;
+        line-height: 26.4px;
+        font-weight: 600;
+        color: #CC1C19;
+        padding-bottom: 6px;
+    }
+    &__logo {
+        font-size: 16px;
+        line-height: 25.6px;
+        color: #002933;
+        padding-bottom: 21px;
+    }
+    &__arrows {
+        display: flex;
+        column-gap: 30.47px;
+    }
+    &__bg {
+        position: absolute;
+        top: 0;
+    }
+    &__circl {
+        background-color: rgba(102, 102, 102, 0.4);
+        border-radius: 50%;
+        position: absolute;
+    }
+    &__circl:first-child {
+        width: 108px;
+        height: 108px;
+        top: 326px;
+        left: -49px;
+    }
+    &__circl:nth-child(2) {
+        width: 84px;
+        height: 84px;
+        top: 457px;
+        left: 94px;
+    }
+    &__circl:nth-child(3) {
+        width: 61px;
+        height: 61px;
+        top: 247px;
+        left: 167px;
+    }
+    &__circl:nth-child(4) {
+        width: 108px;
+        height: 108px;
+        top: 411.5px;
+        right: 44.3px;
+    }
+    &__circl:nth-child(5) {
+        width: 84px;
+        height: 84px;
+        top: 268px;
+        right: 41.8px;
+    }
+    &__circl:last-child {
+        width: 61px;
+        height: 61px;
+        top: 352px;
+        right: -59.2px;
+    }
+}

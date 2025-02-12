@@ -108,3 +108,22 @@ body{
     text-align: center;
     
 }
+.main-btn {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #CC1C19;
+    border-radius: 50px;
+    padding: 16px 32px;
+    width: 238px;
+    height: 61px;
+    white-space: nowrap;
+    display: flex;
+    column-gap: 16px;
+    &__arrow {
+        padding: 9px 7px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+}
