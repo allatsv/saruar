@@ -1,0 +1,35 @@
+.additional {
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 47px;
+    }
+    &__block {
+        display: flex;
+        column-gap: 32px;
+        padding: 26px 67px 24px 29px;
+        box-shadow: 1px 2px 26.6px 0px #00000026;
+        &-title {
+            font-size: 28px;
+            line-height: 33.6px;
+            font-weight: 600;
+            color: #002933;
+            max-width: 212px;
+        }
+        img {
+            background-color: #CC1C19;
+            border-radius: 50%;
+            width: 75px;
+            height: 75px;
+        }
+    }
+    &__block img:first-child {
+        padding: 18.65px 19.06px 19.06px 18.65px;
+    }
+    &__block img:nth-child(2) {
+        padding: 18.65px 21.09px 19.06px 21.13px;
+    }
+    &__block img:last-child {
+        padding: 18.65px 20.93px 19.06px 21.57px;
+    }
+}

@@ -11,6 +11,9 @@ import './scss/geography.scss'
 import './scss/reviews.scss'
 import './scss/news.scss'
 import './scss/subscribe.scss'
+import './scss/additional.scss'
+import './scss/success.scss'
+import './scss/footer.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
