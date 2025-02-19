@@ -1,0 +1,26 @@
+.functions {
+    background-color: rgba(85, 98, 117, 0.1);
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px 0;
+    }
+    &__block {
+        display: flex;
+        column-gap: 20px;
+        align-items: flex-start;
+    }
+    &__info {
+        &-title {
+            font-size: 22px;
+            line-height: 26.4px;
+            font-weight: 600;
+            color: #002933;
+            padding-bottom: 5px;
+        }
+        &-text {
+            line-height: 25.6px;
+            color: #666666;
+        }
+    }
+}

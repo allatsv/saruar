@@ -1,0 +1,21 @@
+.numbers {
+    background-color: #CC1C19;
+    color: #fff;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding: 150px 0 99px 0;
+    }
+    &__block {
+        max-width: 244.5px;
+    }
+    &__title {
+        font-size: 44px;
+        line-height: 55.44px;
+        font-weight: 800;
+        padding-bottom: 5px;
+    }
+    &__text {
+        line-height: 25.6px;
+    }
+}

@@ -1,0 +1,41 @@
+.aboutHistory {
+    &__inner {
+        display: flex;
+        column-gap: 60px;
+        position: relative;
+    }
+    &__block {
+        font-size: 18px;
+        line-height: 23.4px;
+        font-weight: 500;
+        color: #fff;
+        max-width: 635px;
+        background-color: #CC1C19;
+        padding: 30px 30px 27px 30px;
+        position: absolute;
+        bottom: 80px;
+        left: 50px;
+        z-index: 1;
+    }
+    &__info {
+        line-height: 25.6px;
+        color: #666666;
+        max-width: 567px;
+        padding-top: 80px;
+    }
+    &__img {
+        position: relative;
+    }
+    &__triangle {
+        border-top: 663px solid #CC1C19;
+        border-left: 508px solid transparent;
+        position: absolute;
+        bottom: 80px;
+        right: -20px;
+        z-index: -1;
+    }
+    &__photo {
+        width: 710px;
+        height: 538px;
+    }
+}

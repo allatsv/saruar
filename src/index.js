@@ -14,6 +14,10 @@ import './scss/subscribe.scss'
 import './scss/additional.scss'
 import './scss/success.scss'
 import './scss/footer.scss'
+import './scss/aboutHistory.scss'
+import './scss/functions.scss'
+import './scss/team.scss'
+import './scss/numbers.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
