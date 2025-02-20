@@ -13,10 +13,14 @@ import AboutHistory from './components/AboutHistory';
 import Functions from './components/Functions';
 import Team from './components/Team';
 import Numbers from './components/Numbers';
+import Header from './components/Header';
+import OurServices from './components/OurServices';
 
 function App() {
   return (
     <div className="App">
+      <Header/>
+      <OurServices/>
       <AboutHistory/>
       <Functions/>
       <Team/>

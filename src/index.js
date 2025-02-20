@@ -18,6 +18,8 @@ import './scss/aboutHistory.scss'
 import './scss/functions.scss'
 import './scss/team.scss'
 import './scss/numbers.scss'
+import './scss/header.scss'
+import './scss/ourServices.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

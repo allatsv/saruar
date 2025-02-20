@@ -1,0 +1,97 @@
+.header {
+    .container {
+        width: 1720px;
+    }
+    &__inner {
+        background: linear-gradient(135deg, #fff 20%, #002933 20%);
+        &-top {
+            display: flex;
+            column-gap: 134px;
+        }
+        &-bottom {
+            padding: 154px 0;
+            color: #fff;
+            text-align: center;
+            background: url("../../public/c394c7a2433970f35445c40fd862e6c3.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    &__top {
+        display: flex;
+        padding: 13px 0 12px 0;
+        background: linear-gradient(135deg, #303842 31%, #556275 31%);
+        position: absolute;
+        z-index: 0;
+    }
+    &__logo {
+        margin-top: 29px;
+        position: relative;
+        z-index: 1;
+    }
+    &__social {
+        display: flex;
+        column-gap: 30px;
+    }
+    &__contact {
+        display: flex;
+        column-gap: 41.1px;
+        color: #fff;
+        line-height: 25.6px;
+    }
+    &__tell {
+        display: flex;
+        column-gap: 8px;
+    }
+    &__email {
+        display: flex;
+        column-gap: 8px;
+    }
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        column-gap: 49px;
+        padding: 16px 0 15px 0;
+    }
+    &__list {
+        display: flex;
+        column-gap: 50px;
+        line-height: 25.6px;
+        a {
+            color: #fff;
+        }
+    }
+    &__button {
+        font-size: 18px;
+        line-height: 23px;
+        font-weight: 700;
+        color: #CC1C19;
+        background-color: #fff;
+        border: 1px solid #CC1C19;
+        border-radius: 50px;
+        padding: 16px 32px;
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        width: 202px;
+        height: 61px;
+        &-icon {
+            padding: 9px 7px;
+            background-color: #CC1C19;
+            border-radius: 50%;
+        }
+    }
+    &__title {
+        font-size: 44px;
+        line-height: 55.44px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+    &__category {
+        line-height: 25.6px;
+        display: flex;
+        column-gap: 5px;
+    }
+}
