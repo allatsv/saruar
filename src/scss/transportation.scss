@@ -1,0 +1,135 @@
+.transportation {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        padding: 20px;
+        background-color: rgba(204, 28, 25, 0.1);
+        width: 377px;
+        height: 530px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px 20px 7px 22px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        &-text {
+            font-size: 18px;
+            line-height: 23.4px;
+            font-weight: 500;
+            color: #303842;
+            width: 210px;
+            padding-left: 20px;
+        }
+        &-text:hover {
+            color: #fff;
+        }
+        &-arrow {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: #CC1C19;
+            text-align: center;
+            padding-top: 3px;
+        }
+        &-left {
+            display: flex;
+        }
+    }
+    &__item:first-child svg {
+        fill: #303842;
+    }
+    &__item:nth-child(2) svg {
+        fill: #303842;
+    }
+    &__item:nth-child(3) svg {
+        fill: #303842;
+    }
+    &__item:last-child {
+        margin-bottom: 0;
+    }
+    &__item:hover {
+        background-color: #CC1C19;
+        p {
+            color: #fff;
+        }
+    }
+    &__item:first-child:hover svg {
+        fill: #fff;
+    }
+    &__item:nth-child(2):hover svg {
+        fill: #fff;
+    }
+    &__item:nth-child(3):hover svg {
+        fill: #fff;
+    }
+    &__info {
+        width: 991px;
+        &-item {
+            padding-bottom: 32px;
+        }
+        &-item:last-child {
+            padding-bottom: 0;
+        }
+    }
+    &__img {
+        width: 100%;
+        height: 435px;
+        object-fit: cover;
+        margin-bottom: 30px;
+
+    }
+    &__title {
+        font-size: 35px;
+        line-height: 42px;
+        font-weight: 800;
+        color: #002933;
+        padding-bottom: 10px;
+    }
+    &__text {
+        line-height: 25.6px;
+        color: #666666;
+    }
+    &__pretitle {
+        font-size: 18px;
+        line-height: 23.4px;
+        font-weight: 500;
+        color: #CC1C19;
+    }
+    &__possibility {
+        .transportation__title {
+            padding-bottom: 35px;
+        }
+        .transportation__text {
+            padding-left: 18px;
+        }
+    }
+    &__work {
+        padding: 31px 0 55px 0;
+        .transportation__text {
+            padding-left: 10px;
+        }
+    }
+    &__imgs {
+        display: flex;
+        column-gap: 30px;
+        padding: 83px 0 30px 0;
+        &-img {
+            width: 480px;
+            height: 284px;
+            object-fit: cover;
+        }
+    }
+    &__choice {
+        padding-bottom: 35px;
+        .transportation__title {
+            padding-bottom: 35px;
+        }
+        .transportation__text {
+            padding-left: 18px;
+        }
+    }
+}

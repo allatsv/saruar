@@ -15,11 +15,17 @@ import Team from './components/Team';
 import Numbers from './components/Numbers';
 import Header from './components/Header';
 import OurServices from './components/OurServices';
+import Article from './components/Article';
+import AllNews from './components/AllNews';
+import Transportation from './components/Transportation';
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Transportation/>
+      <AllNews/>
+      <Article/>
       <OurServices/>
       <AboutHistory/>
       <Functions/>

@@ -20,6 +20,9 @@ import './scss/team.scss'
 import './scss/numbers.scss'
 import './scss/header.scss'
 import './scss/ourServices.scss'
+import './scss/article.scss'
+import './scss/allNews.scss'
+import './scss/transportation.scss'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
